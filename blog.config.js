@@ -62,7 +62,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '祝雅薇同志：幸福快乐，祝雅薇同志：热烈自由, 祝雅薇同志：永远年轻,祝雅薇同志：幸福快乐！永远向上,生日快乐🎉',
+    '祝雅薇同志：幸福快乐!，祝雅薇同志：热烈自由!, 祝雅薇同志：永远年轻!,祝雅薇同志：永远向上!,生日快乐🎉',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
